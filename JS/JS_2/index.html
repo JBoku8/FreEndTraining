@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style type="text/css">
+        section {
+            margin-top:100px;
+        }
+        
+        .btn {
+            margin-top:0.8em;
+        }
+        
+        .center {
+            text-align:center;
+            margin-bottom:2em;
+        }
+    </style>
+</head>
+<body>
+    <section>
+    <h1 class="lead center">Write Something About You</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-md-offset-2">
+                
+                <div class="form-group">
+                    <label for="">Day</label>
+                    <input type="text" class="form-control" id="day"/>
+                </div>
+                
+                <div class="form-group">
+                    <label for="">Year</label>
+                    <input type="text" class="form-control"  id="year" />
+                </div>
+                
+                <div class="form-group">
+                    <label for="">Month</label>
+                    <input type="text" class="form-control"  id="month" />
+                </div>
+                
+                <div class="form-group">
+                    <label for="">City</label>
+                    <input type="text" class="form-control"  id="city" />
+                </div>
+                
+            </div>
+            <div class="col-md-2">
+                
+                <div class="form-group">
+                    <label for="">About</label>
+                    <textarea cols="30" rows="9" class="form-control"  id="about"></textarea>
+                    <button class="btn btn-success" id="save" onclick="change()">Save</button>
+                </div>
+                
+            </div>
+            
+            <div class="col-md-5">
+                <img src="http://hostgatordomains.com/wp-content/uploads/2014/06/why-need-img-2.png" class="img-thumbnail" id="img"></img>
+            </div>
+            
+        </div>
+        <div class="row">
+            
+            <div class="col-md-3 col-md-offset-2">
+                <div class="row">
+                    <div class="col-md-12">
+                        <span id="daybirth"></span>
+                    </div>
+                </div>
+                
+                <div class="row">
+                        <div class="col-md-12">
+                            <span id="monthbirth"></span>
+                       </div> 
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-12">
+                        <span id="yearbirth"></span>
+                    </div>
+                </div>   
+            </div>
+            
+            <div class="col-md-5">
+                
+                <div class="row">
+                    <span id="citylive"></span>
+                </div>
+                
+               <div class="row">
+                    <span id="aboutstore"></span>
+               </div>
+               
+            </div>
+            
+        </div>
+    </div>
+</section>
+    <script src="js.js"></script>
+</body>
+</html>
