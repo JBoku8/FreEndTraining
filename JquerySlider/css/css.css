@@ -41,10 +41,11 @@
  height: 120px;
  width: 120px;
  position: absolute;
- top: 0;
+ top: 50vh;
  bottom: 0;
  left: 0;
  margin: 0 auto;
+ z-index: 2500;
 }
 
 
@@ -52,10 +53,11 @@
     height: 120px;
     width: 120px;
     position: absolute;
-    top: 0;
+    top: 50vh;
     bottom: 0;
-    left: 0;
+    right: 0;
     margin: 0 auto;
+    z-index: 2500;
 }
 
 
