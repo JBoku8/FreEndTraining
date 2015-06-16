@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Zoom Effect</title>
+    <style type="text/css">
+        .pic {
+            width:200px;
+            height: 200px;
+        }
+        
+        .big-pic {
+            position: absolute;
+            width:0px;
+            
+            transition: width 0.3s linear 0s;
+            z-index: 10;
+        }
+        
+        .pic:hover + .big-pic {
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    
+    <img class="pic" src="http://frontenddesignconference.com/_site/public/images/front-end-dan.svg" alt="Front End"></img>
+    <img class="big-pic" src="http://frontenddesignconference.com/_site/public/images/front-end-dan.svg"></img>
+    
+</body>
+</html>
